@@ -699,6 +699,19 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.26.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.26.1/assets/styles/style.min.css">
               <script defer="defer" src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1"></script>
               <script defer="defer" src="https://cdn.jsdelivr.net/combine/gh/lrsjng/jquery-qrcode@0.18.0/dist/jquery-qrcode.min.js,npm/blueimp-md5@2.18.0/js/md5.min.js,gh/hifocus/merger@0.26.1/assets/js/function.min.js,gh/hifocus/merger@0.26.1/assets/js/font_974919_xgtacm93vxp.min.js"></script>
+        resume:
+          append_to_section_tag:
+            - key: data-background-color
+              value: "LightSteelBlue"
+          append: |
+            <script
+              repo="wu-kan/utterances-storage"
+              src="https://utteranc.es/client.js"
+              issue-term="url"
+              theme="github-light"
+              crossorigin="anonymous"
+              async="async"
+            ></script>
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
