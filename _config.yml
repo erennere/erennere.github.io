@@ -2,7 +2,7 @@ title: eren # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   <br/>
   <br/>
-  <br/>
+  I am<br/>
   <br/>
   eren<br/>
   <br/>
@@ -55,6 +55,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fa-solid fa-home fa-fw"></i> 首页'
                 href: /
+              - title: '<i class="fa-solid fa-comment fa-fw"></i> 简历'
+                href: /resume/
               - title: '<i class="fa-solid fa-comment fa-fw"></i> 留言'
                 href: /comments/
               - title: '<i class="fa-solid fa-archive fa-fw"></i> 归档'
