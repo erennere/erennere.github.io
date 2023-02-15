@@ -69,7 +69,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               # - title: '<i class="fa-solid fa-coffee fa-fw"></i> 打赏'
               #   href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
-              enable: false
+              enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
               append: | # 如果看不懂就不改
                 <style>
@@ -108,7 +108,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     })'
                 ></script>
             jekyll-toc: # 侧边栏的目录插件，https://github.com/allejo/jekyll-toc
-              enable: false
+              enable: true
               prepend: | # 目录过长时自动折叠
                 <style>
                   #toc {
@@ -251,32 +251,32 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     async='async'
                   ></script>
                 </div>
-              - | # 觉得我的主题好用的话，让更多的人知道它吧！
-                <div>
-                  <i class="fa-solid fa-thumbs-up fa-fw"></i>
-                  <a href="https://jekyll-theme-WuK.wu-kan.cn">
-                    jekyll-theme-WuK
-                  </a>
-                </div>
-              - | # Copyright声明
-                <div>
-                  <i class="fa-solid fa-copyright fa-fw"></i>
-                  2017-2022 WuK
-                </div>
-              - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-                <div>
-                  <i class="fa-solid fa-info-circle fa-fw"></i>
-                  <a href="http://beian.miit.gov.cn">
-                    粤ICP备 20024947号
-                  </a>
-                </div>
-              - | # 公安网备信息
-                <div>
-                  <img src="https://Mizuno-Ai.wu-kan.cn/assets/image/2021/12/07/0.png" class="fa-fw"></img>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    皖公网安备 34070202000407号
-                  </a>
-                </div>
+              # - | # 觉得我的主题好用的话，让更多的人知道它吧！
+              #   <div>
+              #     <i class="fa-solid fa-thumbs-up fa-fw"></i>
+              #     <a href="https://jekyll-theme-WuK.wu-kan.cn">
+              #       jekyll-theme-WuK
+              #     </a>
+              #   </div>
+              # - | # Copyright声明
+              #   <div>
+              #     <i class="fa-solid fa-copyright fa-fw"></i>
+              #     2017-2022 WuK
+              #   </div>
+              # - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
+              #   <div>
+              #     <i class="fa-solid fa-info-circle fa-fw"></i>
+              #     <a href="http://beian.miit.gov.cn">
+              #       粤ICP备 20024947号
+              #     </a>
+              #   </div>
+              # - | # 公安网备信息
+              #   <div>
+              #     <img src="https://Mizuno-Ai.wu-kan.cn/assets/image/2021/12/07/0.png" class="fa-fw"></img>
+              #     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
+              #       皖公网安备 34070202000407号
+              #     </a>
+              #   </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fa-solid fa-user-edit fa-fw"></i>
