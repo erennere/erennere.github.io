@@ -62,7 +62,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /archive/
               - title: '<i class="fa-solid fa-tags fa-fw"></i> 标签'
                 href: /tags/
-              - title: '<i class="fa-solid fa-tags fa-fw"></i> 友链'
+              - title: '<i class="fa-solid fa-user-friends fa-fw"></i> 友链'
                 href: /friends/
               - title: '<i class="fa-solid fa-comment fa-fw"></i> 留言'
                 href: /comments/
