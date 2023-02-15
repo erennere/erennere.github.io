@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-10-20-Ural-Championship-2010/
 title: Ural Championship 2010
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [The House of Doctor Dee](https://vjudge.net/problem/URAL-1767)

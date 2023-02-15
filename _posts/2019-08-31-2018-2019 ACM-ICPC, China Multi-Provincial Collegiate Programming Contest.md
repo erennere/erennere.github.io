@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-08-31-2018-2019-ACM-ICPC,-China-Multi-Provincial-Collegiate-Programming-Contest/
 title: 2018-2019 ACM-ICPC, China Multi-Provincial Collegiate Programming Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Maximum Element In A Stack](https://vjudge.net/problem/Gym-102222A)

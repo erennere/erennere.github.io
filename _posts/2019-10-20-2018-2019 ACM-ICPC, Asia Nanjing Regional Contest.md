@@ -1,13 +1,12 @@
 ---
-redirect_from: /_posts/2019-10-20-2018-2019-ACM-ICPC,-Asia-Nanjing-Regional-Contest/
 title: 2018-2019 ACM-ICPC, Asia Nanjing Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Adrien and Austin](https://vjudge.net/problem/Gym-101981A)
 
-特判$n=0$和$k=1$的两种情况。对于其他情况，先手方可以通过取`1`或`2`将原始序列断成左右等长的两部分，然后「模仿」对手的操作即必胜。
+特判$n=0$和$k=1$的两种情况。对于其他情况，先手方可以通过取`1`或`2`将原始序列断成左右等长的两部分，然后“模仿”对手的操作即必胜。
 
 ```cpp
 #include <bits/stdc++.h>

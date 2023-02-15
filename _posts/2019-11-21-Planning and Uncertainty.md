@@ -1,5 +1,4 @@
 ---
-redirect_from: /_posts/2019-11-21-Planning-and-Uncertainty/
 title: Planning and Uncertainty
 tags:
   - 人工智能
@@ -14,7 +13,7 @@ For more information about $2\times 2$ Rubik's Cube, such as actions R, U and F,
 做的时候遇到一些问题，网页版的[PDDL Editor](http://editor.planning.domains)仅能跑出第一组数据，其他几组数据会超时。多次修改无效的情况下，我选择在 linux 系统下本地安装规划器完成这一项。依次运行下述指令，安装规划器。注意`make`的时候，如果提示缺少库文件，需要自己手动装。
 
 ```bash
-curl -O http://fai.cs.uni-saarland.de/hoffmann/ff/FF-v2.3.tgz
+wget http://fai.cs.uni-saarland.de/hoffmann/ff/FF-v2.3.tgz
 tar zxvf FF-v2.3.tgz
 cd FF-v2.3
 make

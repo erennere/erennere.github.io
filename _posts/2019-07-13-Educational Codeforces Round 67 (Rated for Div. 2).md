@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-07-13-Educational-Codeforces-Round-67-(Rated-for-Div.-2)/
 title: Educational Codeforces Round 67(Rated for Div. 2)
 tags:
-  - 算法竞赛
+  - ACM
 ---
 [官方题解](https://codeforces.com/blog/entry/68111)
 

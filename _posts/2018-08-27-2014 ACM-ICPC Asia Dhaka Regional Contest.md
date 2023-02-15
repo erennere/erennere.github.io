@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-08-27-2014-ACM-ICPC-Asia-Dhaka-Regional-Contest/
 title: 2014 ACM-ICPC Asia Dhaka Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Decoding Baby Boos](https://vjudge.net/problem/UVALive-6917)

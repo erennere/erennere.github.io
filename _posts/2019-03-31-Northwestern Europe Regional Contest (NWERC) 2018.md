@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-03-31-Northwestern-Europe-Regional-Contest-(NWERC)-2018/
 title: Northwestern Europe Regional Contest (NWERC) 2018
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Brexit Negotiations](https://vjudge.net/problem/Kattis-brexitnegotiations)

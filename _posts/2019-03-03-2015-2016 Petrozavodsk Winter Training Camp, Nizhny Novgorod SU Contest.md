@@ -1,13 +1,12 @@
 ---
-redirect_from: /_posts/2019-03-03-2015-2016-Petrozavodsk-Winter-Training-Camp,-Nizhny-Novgorod-SU-Contest/
 title: 2015-2016 Petrozavodsk Winter Training Camp, Nizhny Novgorod SU Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Forcefield](https://vjudge.net/problem/Gym-100960B)
 
-<!-- {% raw %} -->
+{% raw %}
 
 ```cpp
 #include <bits/stdc++.h>
@@ -47,7 +46,7 @@ int main()
 }
 ```
 
-<!-- {% endraw %} -->
+{% endraw %}
 
 ## [Missing Part](https://vjudge.net/problem/Gym-100960C)
 

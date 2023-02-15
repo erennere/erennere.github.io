@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-07-19-The-13th-Chinese-Northeast-Collegiate-Programming-Contest/
 title: The 13th Chinese Northeast Collegiate Programming Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Balanced Diet](https://vjudge.net/problem/Gym-102220B)
@@ -292,7 +291,7 @@ int main()
 
 ## [Skyscraper](https://vjudge.net/problem/Gym-102220H)
 
-<!-- {% raw %} -->
+{% raw %}
 
 ```cpp
 #include <bits/stdc++.h>
@@ -390,7 +389,7 @@ int main()
 }
 ```
 
-<!-- {% endraw %} -->
+{% endraw %}
 
 ## [Time Limit](https://vjudge.net/problem/Gym-102220J)
 

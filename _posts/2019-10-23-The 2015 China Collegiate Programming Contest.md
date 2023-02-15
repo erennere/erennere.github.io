@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-10-23-The-2015-China-Collegiate-Programming-Contest/
 title: The 2015 China Collegiate Programming Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Secrete Master Plan](https://vjudge.net/problem/HDU-5540)

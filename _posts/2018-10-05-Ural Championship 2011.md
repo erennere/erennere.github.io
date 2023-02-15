@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-10-05-Ural-Championship-2011/
 title: Ural Championship 2011
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Help in the RNOS](https://vjudge.net/problem/URAL-1830)

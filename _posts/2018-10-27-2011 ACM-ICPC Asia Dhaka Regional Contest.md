@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-10-27-2011-ACM-ICPC-Asia-Dhaka-Regional-Contest/
 title: 2011 ACM-ICPC Asia Dhaka Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Binary Matrix](https://vjudge.net/problem/UVALive-5809)

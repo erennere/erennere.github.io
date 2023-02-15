@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-08-26-2012-ACM-ICPC-Asia-Dhaka-Regional-Contest/
 title: 2012 ACM-ICPC Asia Dhaka Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Wedding of Sultan](https://vjudge.net/problem/UVALive-6201)

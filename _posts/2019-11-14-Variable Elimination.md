@@ -1,5 +1,4 @@
 ---
-redirect_from: /_posts/2019-11-14-Variable-Elimination/
 title: Variable Elimination
 categoreis:
   - 人工智能

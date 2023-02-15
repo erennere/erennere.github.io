@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-03-09-2015-2016-Petrozavodsk-Winter-Training-Camp,-SPb-SU-+-SPb-AU-Contest/
 title: 2015-2016 Petrozavodsk Winter Training Camp, SPb SU + SPb AU Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Greedy Game](https://vjudge.net/problem/Gym-100956D)

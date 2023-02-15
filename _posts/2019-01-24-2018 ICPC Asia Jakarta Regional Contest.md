@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-01-24-2018-ICPC-Asia-Jakarta-Regional-Contest/
 title: 2018 ICPC Asia Jakarta Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Edit Distance](https://vjudge.net/problem/Gym-102001A)

@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-08-28-ACM-ICPC-2013-2014,-Northeastern-European-Regional-Contest/
 title: ACM ICPC 2013–2014, Northeastern European Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Bonus Cards](https://vjudge.net/problem/Gym-100307B)

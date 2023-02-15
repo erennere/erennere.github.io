@@ -1,17 +1,16 @@
 ---
-redirect_from: /_posts/2019-02-16-Bubble-Cup-11-Finals/
 title: Bubble Cup 11 - Finals
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 题不错，以后补…
 
 ## [Space Isaac](https://vjudge.net/problem/CodeForces-1045B)
 
-如果一个数不能被表示那么它减去 $a_i$ 仍然在 $a$ 中。
+如果一个数不能被表示那么它减去$a_i$仍然在$a$中。
 
-假设这个数是 $a_0+a_i$​ ，不难发现需要满足 $a_0 + a_i = a_1 + a_{i-1} = a_2 + a_{i-2}\dots$ 。差分之后相当于判两部分是不是回文。
+假设这个数是$a_0+a_i$​ ，不难发现需要满足$a_0 + a_i = a_1 + a_{i-1} = a_2 + a_{i-2}\cdots$。差分之后相当于判两部分是不是回文。
 
 ```cpp
 #include <bits/stdc++.h>
@@ -72,7 +71,7 @@ int main()
 将输入按照 r 从大到小排序，这样对于排序后的每个机器人，只要它能看到前面的机器，前面的机器一定也可以看到他。
 
 对每个 q 建立一棵线段树，需要动态建点以节省空间。
-<!-- {% raw %} -->
+{% raw %}
 
 ```cpp
 #include <bits/stdc++.h>
@@ -154,7 +153,7 @@ int main()
 }
 ```
 
-<!-- {% endraw %} -->
+{% endraw %}
 
 ### 一开始的奇思妙想
 

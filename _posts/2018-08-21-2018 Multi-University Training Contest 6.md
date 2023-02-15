@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-08-21-2018-Multi-University-Training-Contest-6/
 title: 2018 Multi-University Training Contest 6
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [oval-and-rectangle](https://vjudge.net/problem/HDU-6362)

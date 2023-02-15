@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-08-19-2018-Multi-University-Training-Contest-4/
 title: 2018 Multi-University Training Contest 4
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Problem B. Harvest of Apples](https://vjudge.net/problem/HDU-6333)

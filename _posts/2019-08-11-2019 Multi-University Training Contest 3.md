@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-08-11-2019-Multi-University-Training-Contest-3/
 title: 2019 Multi-University Training Contest 3
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Distribution of books](https://vjudge.net/problem/HDU-6606)

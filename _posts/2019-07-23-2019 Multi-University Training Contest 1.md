@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-07-23-2019-Multi-University-Training-Contest-1/
 title: 2019 Multi-University Training Contest 1
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Vacation](https://vjudge.net/problem/HDU-6581)

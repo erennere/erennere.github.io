@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-04-30-Codeforces-Round-556-(Div.-2)/
 title: "Codeforces Round #556 (Div. 2)"
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 [官方题解](https://codeforces.com/blog/entry/66783)

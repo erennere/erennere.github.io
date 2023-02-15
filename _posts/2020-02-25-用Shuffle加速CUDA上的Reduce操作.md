@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2020-02-25-%E7%94%A8Shuffle%E5%8A%A0%E9%80%9FCUDA%E4%B8%8A%E7%9A%84Reduce%E6%93%8D%E4%BD%9C/
 title: 用Shuffle加速CUDA上的Reduce操作
 tags:
-  - CUDA
+  - 高性能计算
 ---
 
 显卡上的规约操作是一个经典优化案例。在网上能找到的大部分实现中，性能比较优秀的是使用 Shared Memory 并进行访存优化的树形规约。
@@ -129,7 +128,7 @@ nvcc asum.cu -run
 1073741824 : 7.712928ms elapsed.
 ```
 
-第一行是使用 `thrust::reduce` 库的结果，作为两种优化方案的标杆。可以看到，`thrust` 库能够号称「Code at the speed of light」，还是做了很多优化的。
+第一行是使用 `thrust::reduce` 库的结果，作为两种优化方案的标杆。可以看到，`thrust` 库能够号称“Code at the speed of light”，还是做了很多优化的。
 
 ### `asum.cu`
 

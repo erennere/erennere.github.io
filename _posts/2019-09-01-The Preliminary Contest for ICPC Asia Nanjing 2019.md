@@ -1,11 +1,10 @@
 ---
-redirect_from: /_posts/2019-09-01-The-Preliminary-Contest-for-ICPC-Asia-Nanjing-2019/
 title: The Preliminary Contest for ICPC Asia Nanjing 2019
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
-## [super_log](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41299)
+## [super_log](https://nanti.jisuanke.com/t/41299)
 
 欧拉降幂，需要正确的欧拉降幂姿势。
 
@@ -117,7 +116,7 @@ int main(void)
 }
 ```
 
-## [Tsy's number 5](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41300)
+## [Tsy's number 5](https://nanti.jisuanke.com/t/41300)
 
 正解是 NTT，然而这里每十二个打个表（代码长度限制 96KB，下面这个代码 92KB）就莽过去了…
 
@@ -240,7 +239,7 @@ int main()
 }
 ```
 
-## [Greedy Sequence](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41303)
+## [Greedy Sequence](https://nanti.jisuanke.com/t/41303)
 
 标准解法是 set 上二分，不过我暴力就搞过去了。
 
@@ -270,7 +269,7 @@ int main()
 }
 ```
 
-## [Holy Grail](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41305)
+## [Holy Grail](https://nanti.jisuanke.com/t/41305)
 
 ```cpp
 #include <bits/stdc++.h>

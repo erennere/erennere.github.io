@@ -1,5 +1,4 @@
 ---
-redirect_from: /_posts/2019-11-28-Naive-Bayes/
 title: Naive Bayes
 tags:
   - 人工智能
@@ -251,7 +250,7 @@ def get_data_set(filename):
     data = data.apply(lambda x: pandas.factorize(x)[0])
     # apply运算将转换函数应用到每一个变量维度
     features = pandas.concat([numeric_data, data], axis=1)
-    # 收入水平 ">50K" 记为1，「<=50K」 记为0
+    # 收入水平 ">50K" 记为1，“<=50K” 记为0
     return features.values.astype(numpy.float32), (target.values == ' >50K').astype(numpy.int32)
 
 

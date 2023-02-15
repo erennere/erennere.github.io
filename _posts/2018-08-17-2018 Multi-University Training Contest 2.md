@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-08-17-2018-Multi-University-Training-Contest-2/
 title: 2018 Multi-University Training Contest 2
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Game](https://vjudge.net/problem/HDU-6312)

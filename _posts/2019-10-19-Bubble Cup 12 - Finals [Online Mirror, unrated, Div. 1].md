@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-10-19-Bubble-Cup-12-Finals-Online-Mirror,-unrated,-Div.-1/
 title: Bubble Cup 12 - Finals [Online Mirror, unrated, Div. 1]
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Product Tuples](https://vjudge.net/problem/CodeForces-1218E)

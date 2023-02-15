@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-10-26-2016-2017-ACM-ICPC,-Central-Europe-Regional-Contest-(CERC-16)/
 title: 2016-2017 ACM-ICPC, Central Europe Regional Contest (CERC 16)
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Appearance Analysis](https://vjudge.net/problem/Gym-101173A)

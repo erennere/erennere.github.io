@@ -1,5 +1,4 @@
 ---
-redirect_from: /_posts/2019-10-17-FF-planner/
 title: FF planner
 categoreis:
 - 人工智能

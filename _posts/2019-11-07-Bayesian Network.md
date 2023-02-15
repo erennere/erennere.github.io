@@ -1,5 +1,4 @@
 ---
-redirect_from: /_posts/2019-11-07-Bayesian-Network/
 title: Bayesian Network
 categoreis:
 - 人工智能

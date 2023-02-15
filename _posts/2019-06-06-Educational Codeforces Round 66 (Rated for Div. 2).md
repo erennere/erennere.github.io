@@ -1,14 +1,10 @@
 ---
-redirect_from: /_posts/2019-06-06-Educational-Codeforces-Round-66-(Rated-for-Div.-2)/
 title: Educational Codeforces Round 66 (Rated for Div. 2)
 tags:
-  - 算法竞赛
+  - ACM
 ---
-
 [官方题解](https://codeforces.com/blog/entry/67484)
-
 ## [From Hero to Zero](https://vjudge.net/problem/CodeForces-1175A)
-
 ```c
 #include <stdio.h>
 long long t, n, k, ans;
@@ -19,9 +15,7 @@ int main()
 			ans += n % k;
 }
 ```
-
 ## [Catch Overflow!](https://vjudge.net/problem/CodeForces-1175B)
-
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -55,9 +49,7 @@ int main()
 	cout << st.back();
 }
 ```
-
 ## [Electrification](https://vjudge.net/problem/CodeForces-1175C)
-
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -77,11 +69,8 @@ int main()
 	}
 }
 ```
-
 ## [Array Splitting](https://vjudge.net/problem/CodeForces-1175D)
-
-$k$ 段前缀和，其中 $[1,n]$ 必须得选，其余 $[2,n]\dots [n,n]$ 选最大的 k 段即可。
-
+k段前缀和，其中$[1,n]$必须得选，其余$[2,n]\ldots [n,n]$选最大的k段即可。
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -99,11 +88,8 @@ int main()
 	printf("%lld", a[n]);
 }
 ```
-
 ## [Minimal Segment Cover](https://vjudge.net/problem/CodeForces-1175E)
-
-记 $f_{i,j}$ 为包含坐标 $i$ 点且最多有 $2^j$ 条线段时所能到达的最右端的点，那么是可以倍增的。
-
+记$f_{i,j}$为包含坐标$i$点且最多有$2^j$条线段时所能到达的最右端的点，那么是可以倍增的。
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -132,11 +118,8 @@ int main()
 	}
 }
 ```
-
 ## [The Number of Subpermutations](https://vjudge.net/problem/CodeForces-1175F)
-
-从前往后维护以 $i$ 为终点的答案。显然区间里的数是互不相同的，可以用 `la[i]` 数组记录 i 上一次出现的位置。由于区间要求值为 $[1,len]$，所以很容易发现越短的区间最大值越小，所以从后向前扫时，仅需维护一个单调队列。复杂度 $O(n)$。
-
+从前往后维护以i为终点的答案。显然区间里的数是互不相同的，可以用`la[i]`数组记录i上一次出现的位置。由于区间要求值为$[1,len]$，所以很容易发现越短的区间最大值越小，所以从后向前扫时，仅需维护一个单调队列。复杂度O(n)。
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -168,9 +151,6 @@ int main()
 	printf("%lld", ans);
 }
 ```
-
 ## [Yet Another Partiton Problem](https://vjudge.net/problem/CodeForces-1175G)
-
 ```cpp
-
 ```

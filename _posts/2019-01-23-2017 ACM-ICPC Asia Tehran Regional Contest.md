@@ -1,13 +1,12 @@
 ---
-redirect_from: /_posts/2019-01-23-2017-ACM-ICPC-Asia-Tehran-Regional-Contest/
 title: 2017 ACM-ICPC Asia Tehran Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Sim Card](https://vjudge.net/problem/UVALive-8321)
 
-<!-- {% raw %} -->
+{% raw %}
 
 ```cpp
 #include <bits/stdc++.h>
@@ -146,7 +145,7 @@ int main()
 }
 ```
 
-<!-- {% endraw %} -->
+{% endraw %}
 
 ## [Barareh on Fire](https://vjudge.net/problem/UVALive-8325)
 

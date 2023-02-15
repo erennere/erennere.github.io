@@ -1,5 +1,4 @@
 ---
-redirect_from: /_posts/2020-03-07-Happy-Birthday-Mizuno-Ai!/
 title: Happy Birthday Mizuno Ai!
 tags: 水野爱
 ---

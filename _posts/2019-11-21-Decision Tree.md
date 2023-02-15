@@ -1,5 +1,4 @@
 ---
-redirect_from: /_posts/2019-11-21-Decision-Tree/
 title: Decision Tree
 tags:
   - 人工智能
@@ -47,7 +46,7 @@ where
 
 Information gain $IG(A)$ is the measure of the difference in entropy from before to after the set $S$ is split on an attribute $A$. In other words, how much uncertainty in $S$ was reduced after splitting set $S$ on attribute $A$.
 
-$IG(S,A)=H(S)-\sum_{t\in T}p(t)H(t)=H(S)-H(S\vert A)$
+$IG(S,A)=H(S)-\sum_{t\in T}p(t)H(t)=H(S)-H(S\ |\ A)$
 
 where
 
@@ -320,7 +319,7 @@ def get_data_set(filename):
     data = data.apply(lambda x: pandas.factorize(x)[0])
     # apply运算将转换函数应用到每一个变量维度
     features = pandas.concat([numeric_data, data], axis=1)
-    # 收入水平 ">50K" 记为1，「<=50K」 记为0
+    # 收入水平 ">50K" 记为1，“<=50K” 记为0
     return features.values.astype(numpy.float32), (target.values == ' >50K').astype(numpy.int32)
 
 
@@ -330,22 +329,14 @@ X_train, y_train = get_data_set('adult.data')
 X_test, y_test = get_data_set('adult.test')
 clf = DecisionTreeClassifier(max_depth=48)
 clf.fit(X_train, y_train)
-# print(clf.score(X_train, y_train, sample_weight=None))
-print(clf.score(X_test, y_test, sample_weight=None))
+print(clf.score(X_train, y_train, sample_weight=None))
 ```
 
-> 运行下述指令得到预测准确率。
->
-> ```bash
-> $ python DT.py
-> 0.9999692884125181
-> ```
->
-> 是我太菜了，告辞…
-
-感谢 @Leo 的指正，看来去年我手敲的决策树不是那么菜嘿嘿。
+运行下述指令得到预测准确率。
 
 ```bash
 $ python DT.py
-0.7686874270622198
+0.9999692884125181
 ```
+
+是我太菜了，告辞…

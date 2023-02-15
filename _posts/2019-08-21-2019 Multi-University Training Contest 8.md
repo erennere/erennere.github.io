@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-08-21-2019-Multi-University-Training-Contest-8/
 title: 2019 Multi-University Training Contest 8
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Quailty and CCPC](https://vjudge.net/problem/HDU-6666)

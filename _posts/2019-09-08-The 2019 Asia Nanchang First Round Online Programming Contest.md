@@ -1,11 +1,10 @@
 ---
-redirect_from: /_posts/2019-09-08-The-2019-Asia-Nanchang-First-Round-Online-Programming-Contest/
 title: The 2019 Asia Nanchang First Round Online Programming Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
-## [Enju With math problem](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41348)
+## [Enju With math problem](https://nanti.jisuanke.com/t/41348)
 
 见过几次的套路题了。题目给的范围内，素数出现的最大间隔有两百多个，所以暴力判断其中某一个一定是素数是不够的。这里我判断是否存在一个数是某两个素数乘积`p*q`的形式，并用前一百个素数带入`p`暴力检验，终于在最后一分钟 A 掉了这个题！
 
@@ -163,7 +162,7 @@ int main(void)
 }
 ```
 
-## [Fire-Fighting Hero](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41349)
+## [Fire-Fighting Hero](https://nanti.jisuanke.com/t/41349)
 
 Dijkstra 跑一下即可，多起点连到一个虚拟节点，边长为 0。
 
@@ -240,7 +239,7 @@ int main()
 }
 ```
 
-## [Magic Master](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41352)
+## [Magic Master](https://nanti.jisuanke.com/t/41352)
 
 暴力模拟即可，不知道为什么通过率这么低。也许是因为题面太长了？
 
@@ -270,7 +269,7 @@ int main()
 }
 ```
 
-## [Pangu Separates Heaven and Earth](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41354)
+## [Pangu Separates Heaven and Earth](https://nanti.jisuanke.com/t/41354)
 
 诚意很低的签到题，超长题面加超水签到题目？
 
@@ -288,7 +287,7 @@ int main()
 }
 ```
 
-## [The Nth Item](https://vjudge.net/problem/%E8%AE%A1%E8%92%9C%E5%AE%A2-41355)
+## [The Nth Item](https://nanti.jisuanke.com/t/41355)
 
 标解要用到二次剩余，这里我按照$2^{20}$进制对矩阵乘法的结果预处理，使得每一个询问可以在三个矩阵乘法的时间内算出来，同时使用了小常数的做法，最终通过了这道题。
 

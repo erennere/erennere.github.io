@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-07-31-Codeforces-Round-576-(Div.-2)/
 title: "Codeforces Round #576 (Div. 2)"
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 [官方题解](https://codeforces.com/blog/entry/68812)
@@ -112,7 +111,7 @@ int main()
 
 ## [Matching vs Independent Set](https://vjudge.net/problem/CodeForces-1199E)
 
-现场还是一个小时十分钟毫无进展，想的是「可以用$O(n)$找独立集，我只要再找一个$O(n)$求一个匹配的方法就好了」，这样就走进死胡同了。
+现场还是一个小时十分钟毫无进展，想的是“可以用$O(n)$找独立集，我只要再找一个$O(n)$求一个匹配的方法就好了”，这样就走进死胡同了。
 
 还是有点巧妙的，毕竟没想到。
 

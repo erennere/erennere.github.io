@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-03-20-2018-2019-ACM-ICPC-Southeastern-European-Regional-Programming-Contest-(SEERC-2018)/
 title: 2018-2019 ACM-ICPC Southeastern European Regional Programming Contest (SEERC 2018)
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Broken Watch](https://vjudge.net/problem/Gym-101964B)
@@ -100,7 +99,7 @@ int main()
 ## [Fishermen](https://vjudge.net/problem/Gym-101964E)
 
 理解这个题的意思之后提出一种新的方案：计算每条 🐟 对答案的贡献。因为懒的离散化，这里用风骚的动态开点线段树做掉。
-<!-- {% raw %} -->
+{% raw %}
 
 ```cpp
 #include <bits/stdc++.h>
@@ -182,7 +181,7 @@ int main()
 }
 ```
 
-<!-- {% endraw %} -->
+{% endraw %}
 
 ```cpp
 #include <bits/stdc++.h>

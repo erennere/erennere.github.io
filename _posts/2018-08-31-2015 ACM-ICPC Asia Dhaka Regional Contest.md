@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2018-08-31-2015-ACM-ICPC-Asia-Dhaka-Regional-Contest/
 title: 2015 ACM-ICPC Asia Dhaka Regional Contest
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Automatic Cheater Detection](https://vjudge.net/problem/UVALive-7336)

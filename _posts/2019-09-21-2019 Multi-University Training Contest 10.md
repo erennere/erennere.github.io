@@ -1,8 +1,7 @@
 ---
-redirect_from: /_posts/2019-09-21-2019-Multi-University-Training-Contest-10/
 title: 2019 Multi-University Training Contest 10
 tags:
-  - 算法竞赛
+  - ACM
 ---
 
 ## [Valentine's Day](https://vjudge.net/problem/HDU-6693)
